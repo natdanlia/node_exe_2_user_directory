@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User directory</title>
+    <link rel="stylesheet" href="public/style.css">
+  </head>
+  <body>
+
+    <div id="wrapper" >
+      {{#users}}
+
+        <img src="{{avatar}}" alt="">
+        <h1>{{name}}</h1>
+        {{#job}}
+        <p>{{job}} , {{company}}</p>
+        {{/job}}
+        {{^job}}
+        <p>availbale for hire</p>
+        {{/job}}
+
+      {{/users}}
+    </div>
+
+
+  </body>
+</html>

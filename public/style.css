@@ -1,0 +1,12 @@
+
+#wrapper {
+  display: flex;
+  border: solid 1px black;
+  width: 25%;
+  margin: 20px;
+}
+
+
+h1 {
+  color: green;
+}
